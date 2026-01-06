@@ -47,3 +47,8 @@ def sales_summary(sales: dict) -> tuple[dict, dict]:
 
     return total_sold, average_sold
 
+if __name__ == "__main__":
+    total, average = sales_summary(sales)
+    print("Total Sold:", total)
+    print("Average Sold:", average)
+
